@@ -8,6 +8,7 @@
     border:2px solid red;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .tittle{
     display:flex;
@@ -33,4 +34,22 @@
   }
   .nav-right li{
     list-style:none;
+  }
+  .hamberger{
+    display: none;
+  }
+  .hamberger svg{
+    
+    height:25px;
+    position:flex-end;
+    margin-right:10px;;
+  }
+  @media only screen and (max-width: 600px) {
+    .hamberger{
+     display:block;
+  
+    }
+    .nav-right{
+        display: none;
+    }
   }
