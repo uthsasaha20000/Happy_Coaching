@@ -5,10 +5,11 @@
 }
 
 .nav{
-    border:2px solid red;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom:30px;
 }
 .tittle{
     display:flex;
@@ -44,6 +45,46 @@
     position:flex-end;
     margin-right:10px;;
   }
+
+  .banner{
+  
+   
+    height:677px;
+    background-color:#FAF8F6;
+    margin-bottom:40px;
+  }
+  #line{
+  
+    width:101px;
+    height:17px;
+    margin-left:34px;
+    margin-top:115px;
+  }
+  .text{
+    width:545px;
+    height:396px;
+   margin-top:20px;
+   margin-left:80px;
+    border:2px solid red;
+  }
+  .banner-img{
+    border:2px solid red;
+    width:462px;
+    height:530px;
+  }
+  .banner-img img{
+    
+    width:462px;
+    height:530px;
+
+  }
+  .container{
+    display: flex;
+    height:530px;
+    gap:200px;
+    border:2px solid blue;
+  }
+
   @media only screen and (max-width: 600px) {
     .hamberger{
      display:block;
