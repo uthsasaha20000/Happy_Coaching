@@ -65,10 +65,10 @@
     height:396px;
    margin-top:20px;
    margin-left:80px;
-    border:2px solid red;
+   
   }
   .banner-img{
-    border:2px solid red;
+   
     width:462px;
     height:530px;
   }
@@ -82,7 +82,7 @@
     display: flex;
     height:530px;
     gap:200px;
-    border:2px solid blue;
+   
   }
 
   @media only screen and (max-width: 600px) {
@@ -92,5 +92,26 @@
     }
     .nav-right{
         display: none;
+    }
+    
+    .container{
+        flex-direction: column;
+    }
+    .banner{
+        height:1200px;
+    }
+    .text{
+        width:100%;
+        margin-left:0px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-img img{
+        width:100%;
+    }
+    #line{
+        margin-left:5px;
+        margin-top:10px;
     }
   }
