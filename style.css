@@ -84,6 +84,25 @@
     gap:200px;
    
   }
+.third{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-bottom: 40px;
+}
+.box-container{
+    display: flex;
+    margin-left:200px;
+    gap:100px;
+}
+.box{
+    width:380px;
+    height:328px;
+}
+.box img{
+    width:186px;
+    height:120px;
+}
 
   @media only screen and (max-width: 600px) {
     .hamberger{
