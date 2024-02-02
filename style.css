@@ -90,19 +90,29 @@
     gap:30px;
     margin-bottom: 40px;
 }
+.third p{
+    width:400px;
+    height:400px;
+}
 .box-container{
     display: flex;
-    margin-left:200px;
+    margin-left:100px;
+    margin-bottom:100px;
     gap:100px;
 }
 .box{
     width:380px;
     height:328px;
 }
+.box p{
+    width:300px; 
+    height:400px;
+}
 .box img{
     width:186px;
     height:120px;
 }
+
 
   @media only screen and (max-width: 600px) {
     .hamberger{
@@ -132,5 +142,26 @@
     #line{
         margin-left:5px;
         margin-top:10px;
+    }
+    .third{
+        flex-direction: column;
+        width:100%;
+    }
+    .third p{
+       width:100%
+    }
+    .box-container{
+        margin-top:100px;
+        margin-left:0px;
+        width:100%;
+        flex-direction: column;
+        gap:20px;
+        justify-content: flex-start;
+    }
+    .box{
+        width:100%;
+    }
+    .box p{
+        width:100%;
     }
   }
