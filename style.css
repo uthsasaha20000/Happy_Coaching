@@ -170,7 +170,6 @@ border-radius: 80px;
 }
 .flex1{
   display: flex;
- border: 2px solid red;
   height:500px;
  
   gap:300px;
@@ -201,22 +200,43 @@ border-radius: 80px;
   color: #333461;
   padding:60px;
   gap:200px;
-  margin-bottom:30px;
+  margin-bottom:50px;
+  border:2px solid blue;
 }
 .flex2-text{
   height:350px;
   width:708px;
-  border:2px solid blue;
+ 
 }
 .flex2-img{
-  width: 608px;
+width: 608px;
 height: 480px;
+
 
 
 }
 .flex2-img img{
   width:100%;
   border-radius:19px;
+}
+.get-notified{
+  border:2px solid red;
+  display: flex;
+  height:180px;
+  background-color: #FAF8F6;
+  padding:20px;
+  align-items: center;
+}
+.gtext{
+  width:50%;
+  margin-left:20px;
+}
+.input{
+  width:280px;
+  height:44px;
+  margin-right:6px;
+  border-radius:19px;
+  background-color:white;
 }
   @media only screen and (max-width: 600px) {
     .hamberger{
@@ -304,6 +324,28 @@ height: 480px;
       flex-direction: column;
     }
     .flex1-img{
+      width:100%;
+    }
+    .flex2{
+      width:100%;
+      padding:0px;
+      flex-direction: column;
+      gap:30px;
+      margin-bottom:50px;
+      height:860px;
+    }
+    .flex2-text{
+      width: 100%;
+    }
+    .flex2-img{
+     width:100%;
+    }
+    .get-notified{
+      height:400px;
+      flex-direction: column;
+      gap:40px;
+    }
+    .gtext{
       width:100%;
     }
   }
