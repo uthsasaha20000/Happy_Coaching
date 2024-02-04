@@ -201,7 +201,7 @@ border-radius: 80px;
   padding:60px;
   gap:200px;
   margin-bottom:50px;
-  border:2px solid blue;
+  
 }
 .flex2-text{
   height:350px;
@@ -220,7 +220,7 @@ height: 480px;
   border-radius:19px;
 }
 .get-notified{
-  border:2px solid red;
+  
   display: flex;
   height:180px;
   background-color: #FAF8F6;
@@ -237,6 +237,25 @@ height: 480px;
   margin-right:6px;
   border-radius:19px;
   background-color:white;
+}
+.footer{
+  display:flex;
+  align-items: center;
+  padding-top:30px;
+  gap:100px;
+  justify-content: center;
+  background-color: white;
+  height:316px;
+ 
+}
+#footer_tittle{
+  display: flex;
+  align-items: center;
+
+}
+.box4{
+  width:25%;
+  height:310px;
 }
   @media only screen and (max-width: 600px) {
     .hamberger{
@@ -341,11 +360,20 @@ height: 480px;
      width:100%;
     }
     .get-notified{
-      height:400px;
+      height:316px;
       flex-direction: column;
       gap:40px;
     }
     .gtext{
       width:100%;
+    }
+    #footer_tittle{
+    width:80px;
+    margin-left:-30px;
+    }
+    .footer{
+      gap:4px;
+      padding:0px;
+      height:450px;
     }
   }
