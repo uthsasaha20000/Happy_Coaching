@@ -113,7 +113,42 @@
     height:120px;
 }
 
+.here-out{
+    background-color:#FAF8F6;
+    height:879px;
+    padding:100px;
+   
+}
 
+#here-out-text{
+  height:112px;
+  width:530px;
+  border:2px solid red;
+  margin-top:30px;
+  margin-left:50px;
+  margin-bottom: 30px;;
+}
+.box-container{
+  margin-left: 50px;;
+
+}
+.box1{
+  height: 391px;
+  width: 400px;
+  background-color: white;
+  padding:30px;
+
+ 
+}
+.box1 img{
+  width: 69px;
+height: 70px;
+border-radius: 80px;
+
+}
+.rating svg{
+  height:24px;
+}
   @media only screen and (max-width: 600px) {
     .hamberger{
      display:block;
